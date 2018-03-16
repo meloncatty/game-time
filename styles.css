@@ -24,13 +24,64 @@ h2 {
 
 body {
   background-color: #000;
+  min-width: 1200px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.information-container {
+  border: 2px solid #F2FF33;
+  width: 200px;
+  height: 504px;
+  display: inline-block;
+  text-align: center; 
+  padding: 10px;
+}
+
+.new-game-button {
+  border: 2px solid #F2FF33;
+  width: 85%;
+  line-height: 28px;
+  font-size: 24px;
+  background-color: #000;
+  color: #F2FF33;
+}
+
+.new-game-button:hover {
+  box-shadow: 2px 2px 4px #F2FF33;
+  border: 4px solid #F2FF33;
+}
+
+.arrows {
+  margin-top: 10px;
+  width: 150px;
+}
+
+p {
+  color: #F2FF33;
+  font-size: 12px;
+  line-height: 18px;
 }
 
 canvas {
   border: solid 2px #CFD4D4;
   margin: auto;
-  display: block;
+  display: inline-block;
   background-color: #FFFFFF80;
+}
+
+.high-scores {
+  color: #F2FF33;
+  margin-top: 0px;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.high-score-list {
+  font-size: 16px;
 }
 
 @media only screen and (max-width: 1000px) {
