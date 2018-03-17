@@ -3,10 +3,36 @@
 <head>
   <meta charset="utf-8">
   <title>Game Time</title>
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-  <canvas id="game-screen" width="800" height="500"></canvas>
+  <header>
+    <h2>Score: <span>0</span></h2>
+    <img src="images/logo.png" class="logo">
+    <h2>Lives: <span>3</span></h2>
+  </header>
+  <main>
+    <section class="information-container">
+      <button class="new-game-button">NEW GAME</button>
+      <img class="arrows" src="images/arrows.png">
+      <p>Move the paddle with the left and right arrows. Destroy all the bricks to move on to the next level. If the ball gets past your paddle you lose a life. If you lose all your lives you lose the game.</p>
+    </section>
+    <canvas id="game-screen" width="800" height="500"></canvas>
+    <section class="information-container">
+      <h3 class="high-scores">HIGH SCORES</h3>
+      <p class="high-score-list">1: <span class="high-score-1">XXX</span></p>
+      <p class="high-score-list">2: <span class="high-score-2">XXX</span></p>
+      <p class="high-score-list">3: <span class="high-score-3">XXX</span></p>
+      <p class="high-score-list">4: <span class="high-score-4">XXX</span></p>
+      <p class="high-score-list">5: <span class="high-score-5">XXX</span></p>
+      <p class="high-score-list">6: <span class="high-score-6">XXX</span></p>
+      <p class="high-score-list">7: <span class="high-score-7">XXX</span></p>
+      <p class="high-score-list">8: <span class="high-score-8">XXX</span></p>
+      <p class="high-score-list">9: <span class="high-score-9">XXX</span></p>
+      <p class="high-score-list">10: <span class="high-score-10">XXX</span></p>
+    </section>
+  </main>
   <script src="main.bundle.js"></script>
 </body>
 </html>
