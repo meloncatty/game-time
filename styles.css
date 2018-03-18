@@ -81,7 +81,7 @@ canvas {
 }
 
 .high-score-list {
-  font-size: 16px;
+  font-size: 12px;
 }
 
 @media only screen and (max-width: 1000px) {
