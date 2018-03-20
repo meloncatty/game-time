@@ -14,8 +14,8 @@ header {
 h2 {
   padding-top: 10px;
   font-size: 24px;
-  color: #F2FF33;
-  border-width: 2px solid #000;
+  color: #40F018;
+  text-shadow: 2px 2px 5px #296120;
 }
 
 .logo {
@@ -26,10 +26,12 @@ h2 {
 
 .lives-box {
   width: 200px;
+  color: #40F018;
+  text-shadow: 2px 2px 5px #296120;
 }
 
 body {
-  background-color: #000;
+  background-color: #101010;
   min-width: 1200px;
 }
 
@@ -48,17 +50,18 @@ main {
 }
 
 .new-game-button {
-  border: 2px solid #F2FF33;
+  border: 2px solid #2462EF;
   width: 85%;
   line-height: 28px;
   font-size: 24px;
-  background-color: #000;
-  color: #F2FF33;
+  background-color: #101010;
+  color: #47F2F8;
+  text-shadow: 2px 2px 5px #2462EF;
 }
 
 .new-game-button:hover {
-  box-shadow: 2px 2px 4px #F2FF33;
-  border: 4px solid #F2FF33;
+  box-shadow: 2px 2px 4px #2462EF;
+  border: 4px solid #47F2F8;
 }
 
 .arrows {
@@ -80,7 +83,8 @@ canvas {
 }
 
 .high-scores {
-  color: #F2FF33;
+  color: #40F018;
+  text-shadow: 2px 2px 5px #296120;
   margin-top: 0px;
   font-size: 14px;
   text-decoration: underline;
