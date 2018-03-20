@@ -35,7 +35,7 @@ body {
 
 main {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 
 .information-container {
@@ -43,7 +43,7 @@ main {
   width: 200px;
   height: 504px;
   display: inline-block;
-  text-align: center; 
+  text-align: center;
   padding: 10px;
 }
 
