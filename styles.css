@@ -8,22 +8,24 @@ header {
   height: 100px;
   display: inline-flex;
   justify-content: space-between;
-  /* padding: 0px 50px; */
-}
-
-header div {
-  width: 40%;
+  padding: 0px 25px;
 }
 
 h2 {
   padding-top: 10px;
-  font-size: 28px;
+  font-size: 24px;
   color: #F2FF33;
   border-width: 2px solid #000;
 }
 
 .logo {
   height: 80px;
+  position: absolute;
+  left: 430px;
+}
+
+.lives-box {
+  width: 200px;
 }
 
 body {
