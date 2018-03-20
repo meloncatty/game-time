@@ -8,7 +8,11 @@ header {
   height: 100px;
   display: inline-flex;
   justify-content: space-between;
-  padding: 0px 50px;
+  /* padding: 0px 50px; */
+}
+
+header div {
+  width: 40%;
 }
 
 h2 {
@@ -29,7 +33,7 @@ body {
 
 main {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 
 .information-container {
@@ -37,7 +41,7 @@ main {
   width: 200px;
   height: 504px;
   display: inline-block;
-  text-align: center; 
+  text-align: center;
   padding: 10px;
 }
 
