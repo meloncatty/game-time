@@ -21,7 +21,7 @@ describe('Brick', function() {
 
   it('should create a lot of bricks', function() {
     var brick = new Brick(5, 5);
-    brick.createBricks();
+    brick.createBricks(20, 1);
     assert.equal(brick.bricks.length, 20);
   })
 
