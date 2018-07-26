@@ -4,6 +4,12 @@ This was a student project that recreated everyone's favorite game- a game in wh
 
 Built by [Krista Handel](https://github.com/meloncatty) and [Cameron Buscher](https://github.com/YayFiber)
 
+# Learning Goals
+
+Previously we had built small applications where all of our javascript was housed in a single file. One of the main goals we had for this project was to piece out different bits of functionality and give them their own files. This was easy to do, considering we were also implementing Object Oriented Programming. For each feature of our game we created a class that would take care of the functionality of that specific feature. This was the point where I realized how beautiful programming really was- I had gone from creating a single, ugly javascript file for my projects to separating out functionality based on concerns. This led to more readable code and made the writing process a bit easier because our focus was more clear.  
+
+We also focused on writing a test suite for the functionality of our client-side application. Having the separate classes handling the different bits of functionality made the application easier to test.
+
 ## Initial Setup
 
 1. Clone down the repository  
@@ -137,9 +143,3 @@ Two main points to pay attention to:
 1. In the `Block-test.js` file, we require the `Block.js` file so that we can construct blocks in our tests.
 
 2. In the `test/index.js` file, we require the `Block-test.js` file so that we can view the test results in the browser (at `http://localhost:8080/webpack-dev-server/test.html`).
-
-### Learning Goals
-
-Previously we had built small applications where all of our javascript was housed in a single file. One of the main goals we had for this project was to piece out different bits of functionality and give them their own files. This was easy to do, considering we were also implementing Object Oriented Programming. For each feature of our game we created a class that would take care of the functionality of that specific feature. This was the point where I realized how beautiful programming really was- I had gone from creating a single, ugly javascript file for my projects to separating out functionality based on concerns. This led to more readable code and made the writing process a bit easier because our focus was more clear.  
-
-We also focused on writing a test suite for the functionality of our client-side application. Having the separate classes handling the different bits of functionality made the application easier to test.
